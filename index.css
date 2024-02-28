@@ -10,7 +10,7 @@ section{
   position: sticky;
 }
 #about{
-  background-image: url("assets/8.png");
+  background-image: url("8.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -31,7 +31,7 @@ section .section1 h1{
   font-weight: bold;
 }
 section .section1{
-  background-image: url("assets/bg6_new.png");
+  background-image: url("bg6_new.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(255, 255, 255);
@@ -213,7 +213,7 @@ section .section2 .img-seg1{
 
 
 section .section3{
-  background-image: url("assets/6.png");
+  background-image: url("6.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
@@ -249,7 +249,7 @@ section .section3 ul li{
 
 
 section .section4{
-  background-image: url("assets/7.png");
+  background-image: url("7.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
