@@ -421,7 +421,18 @@
 
 
 
+  $(window).on('scroll', function() {
+    var section2 = $('.section2');
+    var section2Top = section2.offset().top - $(window).scrollTop();
 
+    // Check if 'section2' is exactly at the top of the viewport
+    if (section2Top <= 0) {
+        section2.css('overflow', 'auto');
+    } else {
+        // Optionally, reset the style when 'section2' is not at the top
+        section2.css('overflow', 'hidden');
+    }
+});
 
 
 
